@@ -9,13 +9,13 @@ const defaultData = {
       id: 'richard',
       name: 'Richard Kalehoff',
       handle: '@richardkalehoff',
-      avatarURL: config.origin + '/city.jpg'
+      avatarURL: config.origin + '/richard.jpg'
     },
     {
       id: 'karen',
       name: 'Karen Isgrigg',
       handle: '@karen_isgrigg',
-      avatarURL: config.origin + '/trees.jpg'
+      avatarURL: config.origin + '/karen.jpg'
     },
     {
       id: 'tyler',
