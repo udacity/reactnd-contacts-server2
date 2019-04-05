@@ -12,6 +12,7 @@ Getting the server running on your local machine takes only a few steps:
 2. `cd reactnd-contacts-server2`
 3. install its dependencies - `npm install`
 4. start the server - `node server.js`
+   - If you are getting the error "listen EACCES: permission denied 0.0.0.0:5001", or want to change the port for any reason, use `PORT=9999 node server.js` and replace 9999 with your prefered port.
 
 ## Contributing
 
