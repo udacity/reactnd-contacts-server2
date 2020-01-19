@@ -62,6 +62,6 @@ app.post('/contacts', bodyParser.json(), (req, res) => {
   }
 })
 
-app.listen(config.port, () => {
+app.listen(config.port, config.host, () => {
   console.log('Server listening on port %s, Ctrl+C to stop', config.port)
 })
